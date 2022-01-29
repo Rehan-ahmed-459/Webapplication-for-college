@@ -1,0 +1,13 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    background: url(../images/bg-01.jpg) no-repeat center;
+    color: white;
+
+}

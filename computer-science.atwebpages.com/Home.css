@@ -1,0 +1,103 @@
+html,body{
+
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+
+
+.u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/vcvv-min.jpg");
+  background-position: 50% 50%;
+}
+p {
+  transform: translateY(-10px);
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 815px;
+}
+
+.u-section-1 .u-text-1 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  background-image: none;
+  font-weight: 700;
+  font-family: Ubuntu, sans-serif;
+  font-size: 3.75rem;
+  margin: 208px 0 0;
+}
+
+.u-section-1 .u-btn-1 {
+  align-self: center;
+  border-style: solid;
+  background-image: linear-gradient(to right, #10d5f0, #e000ea);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  margin: 40px auto 60px;
+  padding: 10px 63px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 838px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 731px;
+  }
+  .u-sidenav-overflow {
+    border-right: 2px solid;
+    border-color: rgb(255 20 147);
+}
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+    width: auto;
+    margin-top: 228px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 54px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 693px;
+  }
+  .u-sidenav-overflow {
+    border-right: 2px solid;
+    border-color: rgb(255 20 147);
+}
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 614px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+  }
+
+  .u-section-1 .u-btn-1 {
+    padding: 3px 36px 4px 35px;
+  }
+  .u-sidenav-overflow {
+    border-right: 2px solid;
+    border-color: rgb(255 20 147);
+}
+}

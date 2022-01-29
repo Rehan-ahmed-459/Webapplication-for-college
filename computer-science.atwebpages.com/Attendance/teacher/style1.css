@@ -1,0 +1,18 @@
+
+.form{
+    width: max-content;
+  }
+
+  .paging-nav .selected-page {
+  background: #187ed5;
+  font-weight: bold;
+}
+.paging-nav a {
+  margin: auto 1px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1px 7px;
+  background: #91b9e6;
+  color: white;
+  border-radius: 3px;
+}

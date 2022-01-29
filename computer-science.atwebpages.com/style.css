@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    
+   height: 100%;
+   width: 100%;
+
+background:#0edae1; 
+
+
+}
+
+.error{
+  color: red;
+
+  font-weight: bold;
+}
+.panel-primary{
+  margin-top: -3px;
+ 
+width: 600px;
+margin-left: -90px;
+}
+.success{
+  color: rgb(24, 109, 21);
+  font-weight: bold;
+  font-size: larger;
+}
+
+.container{
+
+    padding-top: 50px;
+    justify-content: center;
+}
+form { margin: 0px 10px; }
+
+h2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.container { max-width: 360px; }
+
+.divider {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.divider hr {
+  margin: 7px 0px;
+  width: 35%;
+}
+
+.left { float: left; }
+
+.right { float: right; }
+
+@media (max-width:400px){
+    .container{
+        width: 100%;
+        height: 100%;
+        padding-top: 30px;
+        justify-content: center;
+    }
+
+    
+}
+
+.rule{
+ 
+  display: grid;
+  width: 100%;
+  height: fit-content;
+  color: black;
+  font-family: none;
+  position: absolute;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+ div h6{
+font-size: 15px;
+border-bottom: 3px solid;
+border-color: rgb(191 15 212);
+width: 380px;
+margin-left: 15px;
+}
+.rule h2{
+  font-size: 16px;
+  font-family: none;
+  border-bottom: 3px solid;
+  width: 292px;
+  border-color: rgb(191 15 212);
+  transform: translate(47px, 4px);
+}
+
+.rule h1{
+  border-bottom: 3px solid;
+  width: 365px;
+  border-color: rgb(191 15 212);
+  text-align: center;
+  transform: translate(24px, 10px);
+}
+li.item {
+  
+  margin-left: 20px;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  background: repeating-linear-gradient(
+    45deg, rgb(0 0 0), rgb(0 0 0 / 0%) 100px);
+    transform: translate(98px, 13px);
+}
+  
+
+@media (max-width: 400px) {
+  .rule h1 {
+ 
+  width: 454px;
+    border-bottom: 3px solid;
+    border-color: rgb(191 15 212);
+    text-align: center;
+    transform: translate(50px, 10px);
+    font-size: 40px;
+    
+}
+li.item{
+  font-size: 20px;
+}
+form{
+margin-left: 2px;
+
+}
+div h6{
+width: 430px;
+margin-left: 40px;
+margin-top: 30px
+
+
+}
+.rule {
+    display: grid;
+    width: max-content;
+    background: rgb(255 255 255);
+    color: rgb(0 0 0);
+    font-family: none;
+    height: 65rem;
+    /* background: rgb(255 255 255); */
+   
+}
+.rule h2 {
+  font-size: 20px;
+  width: 427px;
+  margin-top: 20px;
+  border-color: rgb(191 15 212);
+  transform: translate(60px, 5px);
+  text-align:center;
+}
+
+li.item{
+padding: 5px;
+
+}
+.panel-primary {
+  margin-top: 100px;
+  width: 450px;
+  margin-left: -20px;
+} 
+.logo{
+  transform: translate(200px, 13px);
+}
+}
+
+@media (min-width:401px) and (max-width:750px){
+
+.panel-primary{
+   
+    margin-top: 11px;
+    width: 450px;
+    margin-left: -20px;
+   
+}
+
+}
